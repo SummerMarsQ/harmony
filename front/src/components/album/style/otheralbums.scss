@@ -1,0 +1,147 @@
+.msgother{
+   display:flex;
+    margin:10px;
+    padding-left:20px;
+    .leftside{
+
+        margin-right: auto;
+        display:flex;
+        justify-content: flex-start;
+        .forlink{
+            h1{
+                cursor:pointer;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+           
+            text-decoration: none;
+            color:#ff005c;
+            
+        }
+    }
+    .rightside{
+        .forlink{
+            h4{
+                cursor:pointer;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+           
+            text-decoration: none;
+            color:white;
+        }
+    }
+}
+
+.otheralbums {
+    opacity: 1;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 100%;
+    display: flex;
+    padding-left: 15px; 
+    padding-right: 15px; 
+
+    .begin {
+        padding: 15px; 
+  
+        .bandCard {
+            transform: none;
+            background-color: rgba(29, 29, 29, 1);
+            border-radius: 18px; 
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            font-family: "Readex Pro", sans-serif;
+            justify-content: space-between;
+            text-decoration: none;
+            transition: all 0.3s ease;
+
+            .forlink {
+                color: inherit;
+                text-decoration: inherit;
+
+                .fortext {
+                    h3 {
+                        color: rgba(255, 255, 255, 1);
+                        overflow: hidden;
+                        text-align: center;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        font-weight: 600;
+                        padding: 5px; 
+                    }
+
+                    p {
+                        color: #bbb;
+                        font-size: 0.8em; 
+                        padding: 8px; 
+                        text-align: center;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        overflow: hidden;
+                    }
+
+                    .test {
+                        .bandImage {
+                            border-top-left-radius: 18px; 
+                            border-top-right-radius: 18px; 
+                            overflow: hidden;
+                            position: relative;
+                            height: 180px; 
+                            width: 180px; 
+
+                            .bandListeners {
+                                background: #ff005c;
+                                bottom: 45px; 
+                                color: #fff;
+                                font-size: 12px; 
+                                opacity: 0;
+                                left: 5%;
+                                right: 5%;
+                                padding: 10px; 
+                                position: absolute;
+                                text-align: center;
+                                transition: all 0.3s ease;
+                                z-index: 2;
+                                width: 90%;
+                            }
+
+                            &:hover {
+                                .Poster {
+                                    filter: blur(5px);
+                                }
+                                .bandListeners {
+                                    opacity: 1;
+                                }
+                            }
+
+                            .bandContainer {
+                                display: flex;
+                                position: relative;
+                                height: 100%;
+                                width: 100%;
+                                align-items: center;
+                                justify-content: center;
+
+                                .Poster {
+                                    padding-top: 8px; 
+                                    align-items: center;
+                                    display: flex;
+                                    justify-content: center;
+                                    transition: filter 0.3s ease-in-out;
+                                    width: 90%;
+                                    height: 100%;
+                                    border-radius: 25px; 
+                                    object-fit: cover;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

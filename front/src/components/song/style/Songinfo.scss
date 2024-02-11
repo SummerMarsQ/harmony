@@ -1,0 +1,121 @@
+.song{
+    padding:20px;
+    .info{
+        height:400px;
+        color: #fff;
+    display: flex;
+    max-width: none;
+    overflow: hidden;
+    padding-bottom: 20px;
+        .forimg{
+            position:relative;
+            top:130px;
+            width:300px;
+            img{
+                
+                display: flex;
+                height: 256px;
+                width: 256px;
+        
+                z-index: 0;
+                margin-right: 40px;
+                box-shadow: 0 4px 60px rgba(0,0,0,.5);
+                transition: width 0.6s, height 0.6s;
+    }
+    &:hover {
+        img {
+            width: 275px; 
+            height: 275px;
+          }
+      }
+        }
+        .numbers{
+            
+            display: flex;
+    flex: 1;
+    flex-flow: column;
+    justify-content: flex-end;
+    z-index: 0;
+            .type{
+            font-size:2rem;
+             margin-block: 0px;
+            font-weight: 700;
+            position:relative;
+            right:40%;
+            color: inherit;
+            }
+            .title{
+                line-height: normal;
+                margin-top: 8px;
+                overflow: hidden;
+                text-align: left;
+                width: 100%;
+                h1{
+                    margin: 0.08em 0px 0.12em;
+                    visibility: visible;
+                    width: 100%;
+                    font-size: 6rem;
+                    font-weight: 900;
+                    color: #fff;
+                }
+            }
+            .line{
+                padding : 10px;
+                .forlink{
+                    text-decoration: none;
+                    user-select: none;
+                    color:inherit;
+                }
+                align-items: center;
+                display: flex;
+                flex-wrap: wrap;
+                .photo{
+                    color: hsla(0,0%,100%,.7);
+                    white-space: nowrap;
+                    grid-gap: 4px;
+                    display: grid;
+                    grid-auto-flow: column;
+                    align-items: center;
+                    
+                    img{
+                        width: 36px;
+                        height: 36px;
+                        display: inline-block;
+                        position: relative;
+                        object-fit: cover;
+                        border-radius: 40%;
+
+                    }
+                    
+                    .fortext{
+                        font-size: 0.875rem;
+                        font-weight: 700;
+                        color:inherit;
+                        font-weight: bold;
+                        
+                    }
+                }
+                .album{
+                    
+                    font-size:0.875rem;
+                    margin-block:0;
+                    font-weight: 400;
+                    color:inherit;
+                    font-weight: bold;
+                }
+                .dot{
+                    background-image: radial-gradient(circle, white 50%, transparent 50%);
+                    
+                    background-size: 10px 10px;
+                    background-position: 0 center; 
+                    background-repeat: no-repeat; 
+                    padding-left: 8px;
+                    padding-right: 8px;
+                    color:inherit;
+                    height: 10px;
+                    width:10px;
+                }
+            }
+        }
+    }
+}

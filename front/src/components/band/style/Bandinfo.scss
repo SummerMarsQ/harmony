@@ -1,0 +1,75 @@
+.band{
+    
+    
+    .info2{
+        background: linear-gradient(to bottom right, 
+     
+    black,gray,
+    pink,black);
+    border-radius:30px;
+    .info{
+        height:450px;
+        color: #fff;
+    display: flex;
+    max-width: none;
+    overflow: hidden;
+    padding-bottom: 20px;
+        .forimg{
+            padding-left:20px;
+            position:relative;
+            top:50px;
+            width:300px;
+            img{
+                border-radius:40px;
+                display: flex;
+                height: 350px;
+                width: 350px;
+        
+                z-index: 0;
+                margin-right: 40px;
+                box-shadow: 0 4px 60px rgba(0,0,0,.5);
+                transition: width 0.6s, height 0.6s;
+    }
+    &:hover {
+        img {
+            width: 375px; 
+            height: 375px;
+          }
+      }
+        }
+        .numbers{
+            
+            display: flex;
+    flex: 1;
+    flex-flow: column;
+    justify-content: center;
+            
+            .title{
+                line-height: normal;
+                margin-top: 8px;
+                overflow: hidden;
+                padding-left : 100px;
+                
+                text-align: left;
+                width: 100%;
+                
+                h1{
+                    margin: 0.08em 0px 0.12em;
+                    visibility: visible;
+                    width: 100%;
+                    font-size: 7rem;
+                    font-weight: 900;
+                    color: #fff;
+                }
+            }
+            .listeners{
+                font-size:2rem;
+                text-align: left;
+                padding-top:70px;
+                padding-left:100px;
+            }
+         
+        }
+    }
+}
+}

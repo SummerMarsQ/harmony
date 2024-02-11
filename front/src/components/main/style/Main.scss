@@ -1,0 +1,199 @@
+.Main{
+    width:100%;
+    .topside{
+        width:100%;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        margin-bottom: 12rem;
+        margin-top: 12rem;
+
+        h1{
+            height: 80px;
+            font-weight:1200;
+            color: rgba(255,255,255,1);
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 2.5rem;
+            margin-bottom: 0.25rem;
+            margin-left:0.5rem;
+            margin-right : 0.5rem;
+            margin:0;
+        }
+        p{
+            opacity: 1;
+            color:rgba(78,78,78,1);
+            font-size: 1.125rem;
+            line-height: 1.75rem;
+            margin-bottom : 1.25rem;
+            margin:10px;
+        }
+        .buttonClass{
+            opacity: 1;
+            width:350px;
+            height:60px;
+            .Bbutton{
+                cursor:pointer;
+                transform:none;
+                color:rgba(255,255,255,1);
+                font-size:1.25rem;
+                line-height: 1.75rem;
+                padding-bottom: 10px;
+                padding-top: 10px;
+                background-color: rgba(255,0,92,1);
+                border-radius:20px;
+                width:100%;
+                text-transform: none;
+            }
+        }
+    }
+    .botside{
+        margin-top: 3rem;
+        .info{
+            opacity: 1;
+            text-align: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+
+            .forsvg{
+                width:67px;
+                height:88px;
+                fill: #fff;
+            }
+            h3{
+                color:rgba(255,255,255,1);
+                font-size:2.25rem;
+                line-height: 2.5rem;
+                margin:0;
+                font-weight: inherit;
+
+            }
+            p{
+                color:rgba(107,114,128,1);
+                font-size:1.25rem;
+                line-height: 1.75rem;
+                margin-bottom: 1.25rem;
+                margin-left: 0.5rem;
+                margin-right: 0.5rem;
+            }
+        }
+        .ex {
+            opacity: 1;
+            justify-content: center;
+            flex-wrap: wrap;
+            height: 100%;
+            display: flex;
+            padding-left: 20px;
+            padding-right: 20px;
+          
+            .begin {
+              padding-left: 20px;
+              padding-right: 20px;
+              padding-bottom: 20px;
+          
+              .bandCard {
+                transform: none;
+                background-color: rgba(29, 29, 29, 1);
+                border-radius: 20px;
+                cursor: pointer;
+                display: flex;
+                flex-direction: column;
+                font-family: "Readex Pro", sans-serif;
+                justify-content: space-between;
+                text-decoration: none;
+                transition: all 0.3s ease;
+
+                
+          
+                .forlink {
+                  color: inherit;
+                  text-decoration: inherit;
+                    
+                    .fortext {
+                        
+                          
+                        h3 {
+                          color: rgba(255, 255, 255, 1);
+                          overflow: hidden;
+                          text-align: center;
+                          text-overflow: ellipsis;
+                          white-space: nowrap;
+                          font-weight: 700;
+                          padding-left: 5px;
+                          padding-right: 5px;
+                        }
+              
+                        p {
+                          color: #bbb;
+                          font-size: 0.9em;
+                          padding-left: 10px;
+                          padding-right: 10px;
+                          text-align: center;
+                          text-overflow: ellipsis;
+                          white-space: nowrap;
+                          overflow: hidden;
+                        }
+                        .test{
+                        .bandImage {
+                            border-top-left-radius: 20px;
+                            border-top-right-radius: 20px;
+                            overflow: hidden;
+                            position: relative;
+                            height: 250px;
+                            width: 250px;
+                            .bandListeners {
+                                background: #ff005c;
+                                bottom: 55px;
+                                color: #fff;
+                                font-size: 16px;
+                                opacity:0;
+                                left: 5%;
+                                right:5%;
+                                padding: 10px;
+                                position: absolute;
+                                right: 0;
+                                text-align: center;
+                                transition: all 0.3s ease;
+                                z-index:2;
+                                width:90%;
+                               
+                              }
+                                &:hover {
+                                    .Poster {
+                                        filter: blur(5px); 
+                                            }
+                                    .bandListeners{
+                                        opacity:1;
+                                        }
+                                    }
+                                    .bandContainer {
+                                    display: flex;
+                                    position: relative;
+                                    height: 100%;
+                                    width: 100%;
+                                    align-items: center;
+                                     justify-content: center;
+                
+                                     .Poster {
+                                       padding-top: 10px;
+                                       align-items: center;
+                                       display: flex;
+                                       justify-content: center;
+                                       transition: filter 0.3s ease-in-out;
+                                        width: 90%;
+                                        height: 100%;
+                                        border-radius: 30px;
+                                        object-fit: cover;
+                                        }
+                                    }
+                                } 
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

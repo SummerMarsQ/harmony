@@ -1,0 +1,139 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80px;
+    margin:10px;
+    padding:15px;
+    .header2{
+        padding:15px;
+        margin:10px;
+        width:1500px;
+        height:75px;
+        background-color: rgba(29, 29, 29, 1);
+        border-radius: 0.5rem;
+        justify-content: space-between;
+        align-items: center;
+        display:flex;
+        .links{
+            justify-content: space-between;
+            align-items: center;
+            display:flex;
+            padding:15px;
+            flex-direction: row;
+            width:730px;
+            .find{
+                width:250px;
+                display:flex;
+                align-items: center;
+                margin-left:0.5rem;
+                
+                .head{
+                    color : rgba(147,147,147 , 1);
+                    display:flex;
+                    margin-right :1.25rem;
+                    text-decoration: inherit;
+                    padding:10px;
+                    font-weight: 700;
+                    &:hover {
+                        color: #cc0049;
+                    }
+                }
+            }
+        }
+    .search{
+        width:800px;
+        opacity: 1;
+        position: relative;
+        .searchSpace{
+            flex-direction: row;
+                display:flex;
+                margin-left: 1rem;
+                margin-right: 1rem;
+                position: relative;
+            .filterBox{
+                background-color: rgba(20,20,20,1);
+                display:flex;
+                border-width: 0;
+                border-radius: 0.5rem;
+                justify-content: center;
+                align-items: center;
+                cursor:pointer;
+                width:50px;
+                margin-left:0.25rem;
+                .forsvg{
+                    fill:#fff;
+                    width:2rem;
+                    height:2rem;
+                    display:block;
+                }
+            }
+            .inputBox{
+                flex-direction: column;
+                display: flex;
+                width:700px;
+                .forinput{
+                    background-color: rgba(20,20,20,1);
+                    outline:2px solid transparent;
+                    outline-offset: 2px;
+                    color : rgba(122,122,122,1);
+                    font-size:1rem;
+                    line-height: 1.5rem;
+                    text-align: center;
+                    padding:0.25rem;
+                    border-width:0;
+                    border-radius: 0.5rem;
+                    height: 2.5rem;
+                    display: flex;
+                    margin-right:0.25rem;
+                }
+            }
+        }
+    }
+    .profile{
+        display:flex;
+        text-align: center;
+        flex-direction: row;
+        .button1{
+            color:rgba(255,255,255,1);
+            font-size:1rem;
+            line-height: 1.5rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            border-width: 0;
+            border-radius: 0.5rem;
+            width:8rem;
+            height:2.5rem;
+            cursor:pointer;
+            background-color: initial;
+            text-transform: none;
+            background-image: linear-gradient(to right, #ff007a, #ff005c);
+            transition: transform 0.5s;
+        &:hover {
+            transform: scale(1.1); 
+          }
+        }
+        .button2{
+            color : rgba(122,122,122,1);
+            font-size:1rem;
+            line-height: 1.5rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            border-color:rgba(122,122,122,1);
+            border-width: 2px;
+            border-radius: 0.5rem;
+            width:6rem;
+            height:2.5rem;
+            margin-left:1rem;
+            cursor:pointer;
+            background-color: initial;
+            background-image: none;
+            text-transform: none;
+            transition: transform 0.5s;
+        &:hover {
+            transform: scale(1.2); 
+          }
+            }
+        }
+    }
+}

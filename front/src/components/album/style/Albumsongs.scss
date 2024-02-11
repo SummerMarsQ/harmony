@@ -1,0 +1,205 @@
+
+    .other{
+        .top{
+            align-items: flex-start;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        .foruser{
+            align-items: center;
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+            .playdiv{
+                background-color: transparent;
+                border:0px;
+              margin-right: 30px;
+                .playbtn{
+                    cursor:pointer;
+                    background-color:transparent;
+                    border:0px;
+                    padding:10px;
+                    transition: transform 0.5s;
+                    &:hover {
+                        transform: scale(1.2); 
+                      }
+                    .playspan1{
+                    background-color: #ff007a;
+                        position: relative;
+                        color:black;
+                        display:flex;
+                        border-radius:500px;
+                        inline-size: 56px;
+                        block-size: 56px;
+                        .playspan2{
+                            display: flex;
+                            position: absolute;
+                            top: 14px;
+                            left: 14px;
+                           
+                        }
+                    }
+                }
+            }
+            .likebtn{
+                background-color:transparent;
+                cursor:pointer;
+                border:0px;
+                border-radius:500px;
+                margin-left:40px;
+                margin-right: 60px;
+                transition: transform 0.5s;
+                &:hover {
+                    transform: scale(1.2); 
+                  }
+                .likespan1{
+                    display:flex;
+                    
+                }
+            }
+            .morebtn{
+                background-color:transparent;
+                cursor:pointer;
+                border:0px;
+                border-radius:500px;
+                color:#ff007a;
+                transition: transform 0.5s;
+                &:hover {
+                    transform: scale(1.2); 
+                  }
+                .morespan1{
+                    display:flex;
+                    .more{
+                        fill:#ff007a;
+                    }
+                }
+            }
+        }
+    }
+        .bot{
+            border : 1px solid transparent;
+            margin : 0 20px 20px;
+            padding : 0 20px;
+            width:1450px;
+            .topside{
+      
+              padding:0 16px;
+                    .info2{
+                        color:#ff007a;
+                        fill:#ff007a;
+                        display:flex;
+                        
+                            .tag{
+                                padding-left:40px;
+                                padding-top:2px;
+                            padding-right:130px;
+                            }
+                            .name{
+                                    .forname{
+                                    font-size: 18px;
+                                    }
+                            }
+                            .audio{
+                                padding-left:750px;
+                                .foraudio{
+                                    font-size:18px;
+                                   
+                                }
+                            }
+                            .time{
+                                padding-left:310px;
+                            }
+
+                    }
+                    .line{
+                        margin-top:5px;
+                        border:0.5px gray solid;
+                    }
+                    .allsongs{
+                    .songswithall{
+                        color:white;
+                        fill:white;
+                        display:flex;
+                        height:56px;
+                        &:hover {
+                            background-color: 	#585858;
+                            border-radius:10px;
+
+
+                          }
+                        .number{
+                            width:100px;
+                            display:flex;
+                            align-items:center;
+                            justify-content: center;
+                            flex-direction: column;
+                            padding-left:40px;
+                            padding-top:2px;
+                            padding-right:140px;
+                            p{
+                                font-size:22px;
+                            }
+                           
+                    
+                        }
+                        
+                        .songname{
+                            
+                            .forlink{
+                                text-decoration: none;
+                                h1{
+                                    font-size: 20px;
+                                    color:white;
+                                    &:hover {
+                                        text-decoration:underline;
+            
+            
+                                      }
+                                }
+                            }
+                            width:400px;
+                            display:flex;
+                            align-items:flex-start;
+                            justify-content: center;
+                            flex-direction: column;
+                          
+                            
+                            
+                        }
+
+                        .audiosnumber{
+                            display:flex;
+                            align-items:center;
+                            justify-content: center;
+                            flex-direction: row;
+                            padding-right:10px;
+                            h3{
+                                font-size:16px;
+                            }
+                        }
+                        .songduration{
+                            padding-right:20px;
+                            display:flex;
+                            align-items:center;
+                            justify-content: center;
+                            flex-direction: column;
+                            h6{
+                                display:none;
+                            }
+                        }
+                    } 
+                }
+                    .date{
+                        display:flex;
+                        h1{
+                            font-size:16px;
+                            color:#ff007a;
+                        }
+                    }
+                
+            }
+            
+            
+        }
+    
+}

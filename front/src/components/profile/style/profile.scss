@@ -1,0 +1,147 @@
+.user{
+    
+    
+    .info2{
+        background: linear-gradient(to bottom right, 
+     
+    black,
+    gray,white,black);
+    border-radius:30px;
+    .info{
+        height:300px;
+        color: #fff;
+    display: flex;
+    max-width: none;
+    overflow: hidden;
+    padding-bottom: 20px;
+            
+            .name{
+                
+                line-height: normal;
+                margin-top: 8px;
+                overflow: hidden;
+                padding-left : 140px;
+                
+                text-align: left;
+                width: 100%;
+                h1{
+                    
+                    margin: 0.08em 0px 0.12em;
+                    visibility: visible;
+                    width: 100%;
+                    font-size: 7rem;
+                    font-weight: 900;
+                    color: black;
+                }
+            }
+         
+        }
+}
+.topside{
+      
+    padding:0 16px;
+          .info2{
+              color:#ff007a;
+              fill:#ff007a;
+              display:flex;
+              
+                  .tag{
+                      padding-left:40px;
+                      padding-top:2px;
+                  padding-right:170px;
+                  }
+                  .name{
+                    font-size: 22px;
+                          .forname2{
+                            margin-left:400px;
+                          }
+                  }
+                  .time{
+                      padding-left:230px;
+                  }
+
+          }
+          .line{
+              margin-top:5px;
+              border:0.5px gray solid;
+          }
+          .allsongs{
+          .songswithall{
+              color:white;
+              fill:white;
+              display:flex;
+              height:56px;
+              &:hover {
+                  background-color: 	#585858;
+                  border-radius:10px;
+
+
+                }
+              .number{
+                  width:50px;
+                  display:flex;
+                  align-items:center;
+                  justify-content: center;
+                  flex-direction: column;
+                  padding-left:40px;
+                  padding-top:2px;
+                  padding-right:100px;
+                  p{
+                      font-size:22px;
+                  }
+                 
+          
+              }
+              .photoband{
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                margin-right:40px;
+                img{
+                height:40px;
+                width:40px;
+                object-fit: cover;
+                
+            }
+    }
+              .songname{
+                  
+                  .forlink{
+                      text-decoration: none;
+                      h1{
+                          font-size: 20px;
+                          color:white;
+                          &:hover {
+                              text-decoration:underline;
+  
+  
+                            }
+                      }
+                  }
+                  width:400px;
+                  display:flex;
+                  align-items:flex-start;
+                  justify-content: center;
+                  flex-direction: column;
+                
+                  
+                  
+              }
+
+              .songduration{
+                  padding-right:20px;
+                  display:flex;
+                  align-items:center;
+                  justify-content: center;
+                  flex-direction: column;
+                  h6{
+                      display:none;
+                  }
+              }
+          } 
+      }
+  }
+  
+  
+
+}
